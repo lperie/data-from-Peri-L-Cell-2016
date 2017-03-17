@@ -15,3 +15,7 @@ M or My for myeloid cells
 E for erythroblasts
 Dc for dendritic cells
 B for B cells
+
+The filtering code corespond to the first filtering step used for all the data set. It is not optimal as some steps are still done in excel but it is what I used at the time. 
+
+You will also find a code for plotting heatmaps in R used for this paper. 
