@@ -6,7 +6,9 @@ MPP, HSC and CMP have been labelled with a cellular barcode. Their progenies hav
 The data available here have been quality filtered, renormalized to 10^5 reads and average over replicates as described in the paper. The filtering code used for this is attached. It is not optimal as some steps are still done in excel but it is what I used at the time. 
 
 The name of the text file are as follow:
-"name of the expeirment type of progenitor time point mouse number "
+"name of the experiment / type of progenitor/ time point / mouse number "
+
+For CMP there is 3 experiments done at day 6 (LP28,31,32). The figure 1 is the average over the tree experiments. 
 
 In the txt files, you''ll a matrix per mouse where:
 - the column tag correspond to the identity of the barcodes
@@ -17,3 +19,4 @@ Dc for dendritic cells
 B for B cells
 
 You will also find a code for plotting heatmaps in R used for this paper. 
+And the script for the classification of the barcodes in categories. 
